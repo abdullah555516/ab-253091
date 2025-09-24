@@ -1,0 +1,730 @@
+/* Responsive CSS Media Queries */
+
+/* Large Desktop - 1400px and above */
+@media (max-width: 1600px) {
+    .header-section,
+    .urgent-section,
+    .meet-section,
+    .gallary-section,
+    .blog-section,
+    .donate-section,
+    .foter-section {
+        max-width: 100%;
+    }
+    
+    .header-top .header-top-left,
+    .header-bottom,
+    .help-section,
+    .future-section,
+    .event-section,
+    .inner-client,
+    .inner-meet,
+    .inner-futter,
+    .card-blog {
+        width: 90%;
+        max-width: 1200px;
+    }
+    
+    .gallary-img {
+        width: 90%;
+        max-width: 1200px;
+    }
+}
+
+/* Desktop - 1200px to 1023px */
+@media (max-width: 1200px) {
+    .header-top .header-top-left,
+    .header-bottom,
+    .help-section,
+    .future-section,
+    .event-section,
+    .inner-client,
+    .inner-meet,
+    .inner-futter,
+    .card-blog {
+        width: 95%;
+    }
+    
+    .hero-text {
+        width: 90%;
+    }
+    
+    .hero-text h1 {
+        font-size: 50px;
+    }
+    
+    .pera-section h1 {
+        font-size: 40px;
+    }
+    
+    .pera-section h5,
+    .pera-section p {
+        width: 100%;
+    }
+    
+    .urgent-section h4,
+    .urgent-section h1,
+    .urgent-section p,
+    .urgent-section a {
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    .urgent-section p {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+/* Tablet - 1023px to 768px */
+@media (max-width: 1023px) {
+    /* Header Responsive */
+    .header-menu {
+        display: none;
+    }
+    
+    .header-bottom {
+        justify-content: center;
+        padding: 0 20px;
+    }
+    
+    /* Hero Section */
+    .hero-text {
+        width: 100%;
+        padding: 30px 20px;
+        text-align: center;
+    }
+    
+    .hero-text h1 {
+        font-size: 40px;
+        padding: 20px 0;
+    }
+    
+    .hero-text p {
+        padding: 0 0 30px 0;
+    }
+    
+    .hero-text .hero-btn {
+        margin-left: 0;
+    }
+    
+    /* Help Section */
+    .help-section {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .img-section {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    .img-section img {
+        width: 100%;
+        max-width: 500px;
+    }
+    
+    .pera-section {
+        text-align: center;
+    }
+    
+    .pera-section h1 {
+        font-size: 35px;
+    }
+    
+    /* Featured Causes */
+    .card-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .future-card {
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+    }
+    
+    .future-section {
+        height: auto;
+        padding: 20px;
+    }
+    
+    /* Events */
+    .card-event {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .event-card {
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+    }
+    
+    .event-section {
+        height: auto;
+        padding: 20px;
+    }
+    
+    /* Client Section */
+    .inner-client {
+        flex-direction: column;
+        padding-top: 50px;
+        text-align: center;
+    }
+    
+    .inner-client .img-2 {
+        padding-right: 0;
+        border-right: none;
+        border-bottom: 1px solid white;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .bio-sec {
+        padding-left: 0;
+    }
+    
+    .inner-bio {
+        gap: 50px;
+        justify-content: center;
+    }
+    
+    /* Volunteers */
+    .inner-meet {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .inner-card {
+        width: 45%;
+        min-width: 200px;
+    }
+    
+    .meet-section {
+        height: auto;
+        padding: 20px;
+    }
+    
+    /* Gallery */
+    .gallary-img {
+        grid-template-columns: 1fr 1fr;
+        width: 95%;
+    }
+    
+    .g-img {
+        width: 100%;
+    }
+    
+    .gallary-section {
+        height: auto;
+        padding: 50px 20px;
+    }
+    
+    /* Blog */
+    .card-blog {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .blog-card {
+        width: 90%;
+        max-width: 400px;
+    }
+    
+    .image-2 {
+        width: 100%;
+    }
+    
+    .blog-section {
+        height: auto;
+        padding: 20px;
+    }
+    
+    .header-blog {
+        width: 95%;
+    }
+    
+    /* Footer */
+    .inner-futter {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 50px 20px;
+    }
+    
+    .foter-section {
+        height: auto;
+    }
+    
+    /* Donate Section */
+    .inner-donate {
+        
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .donate-button {
+        padding-top: 0;
+    }
+}
+
+/* Mobile Large - 767px to 600px */
+@media (max-width: 767px) {
+    /* Typography */
+    .hero-text h1 {
+        font-size: 32px;
+    }
+    
+    .pera-section h1,
+    .future-section h1,
+    .event-section h1,
+    .meet-heading h1,
+    .gallary-heading h1,
+    .header-blog h1 {
+        font-size: 28px;
+    }
+    
+    .pera-section h5 {
+        font-size: 20px;
+    }
+    
+    /* Header */
+    .header-top {
+        display: none;
+    }
+    
+    .header-bottom {
+        height: 80px;
+    }
+    
+    .header-logo img {
+        height: 40px;
+    }
+    
+    /* Hero */
+    .hero-section {
+        height: 60vh;
+        min-height: 400px;
+    }
+    
+    .hero-text {
+        padding: 20px;
+    }
+    
+    .hero-text h1 {
+        padding: 10px 0;
+    }
+    
+    /* Help Section */
+    .help-section {
+        margin-top: 30px;
+        padding: 20px;
+    }
+    
+    .pera-section h1 {
+        font-size: 28px;
+    }
+    
+    /* Urgent Section */
+    .urgent-section {
+        height: 50vh;
+        min-height: 300px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .urgent-section h4 {
+        padding-top: 0;
+    }
+    
+    .urgent-section p {
+        width: 95%;
+    }
+    
+    /* Client Section */
+    .client-section {
+        height: auto;
+        padding: 40px 20px;
+    }
+    
+    /* Volunteers */
+    .inner-meet {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .inner-card {
+        width: 80%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+    
+    /* Gallery */
+    .gallary-img {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .gallary-heading {
+        padding-top: 50px;
+    }
+    
+    /* Blog */
+    .dolor-5 {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    /* Footer */
+    .inner-futter {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .foter-Subscribe input {
+        padding: 10px;
+        width: 200px;
+    }
+    
+    .foter-Subscribe form {
+        display: flex;
+        justify-content: center;
+        gap: 0;
+    }
+}
+
+/* Mobile Medium - 599px to 500px */
+@media (max-width: 599px) {
+    /* Typography */
+    .hero-text h1 {
+        font-size: 28px;
+    }
+    
+    .pera-section h1,
+    .future-section h1,
+    .event-section h1,
+    .meet-heading h1,
+    .gallary-heading h1,
+    .header-blog h1 {
+        font-size: 24px;
+    }
+    
+    /* Header */
+    .header-bottom {
+        padding: 0 15px;
+    }
+    
+    /* Hero */
+    .hero-text {
+        padding: 15px;
+    }
+    
+    /* General Sections */
+    .help-section,
+    .future-section,
+    .event-section,
+    .meet-section,
+    .blog-section {
+        padding: 15px;
+    }
+    
+    /* Cards */
+    .future-card,
+    .event-card,
+    .blog-card {
+        width: 95%;
+    }
+    
+    .inner-card {
+        width: 90%;
+    }
+    
+    /* Progress Bar */
+    .progress-bar {
+        width: 250px;
+    }
+    
+    /* Footer */
+    .inner-futter {
+        padding: 30px 15px;
+    }
+    
+    .foter-Subscribe input {
+        width: 150px;
+        padding: 8px;
+    }
+    
+    /* Donate Section */
+    .donate-section {
+        height: auto;
+        padding: 30px 15px;
+    }
+}
+
+/* Mobile Small - 499px to 455px */
+@media (max-width: 499px) {
+    /* Typography */
+    .hero-text h1 {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    
+    .pera-section h1,
+    .future-section h1,
+    .event-section h1,
+    .meet-heading h1,
+    .gallary-heading h1,
+    .header-blog h1 {
+        font-size: 20px;
+    }
+    
+    .pera-section h5 {
+        font-size: 16px;
+    }
+    
+    .pera-section p,
+    .future-section p,
+    .event-section p {
+        font-size: 14px;
+    }
+    
+    /* Header */
+    .header-bottom {
+        height: 70px;
+        padding: 0 10px;
+    }
+    
+    .header-logo img {
+        height: 35px;
+    }
+    
+    /* Hero */
+    .hero-section {
+        height: 50vh;
+        min-height: 350px;
+    }
+    
+    .hero-text {
+        padding: 10px;
+    }
+    
+    .hero-text p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    
+    .hero-text .hero-btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+    
+    /* General Spacing */
+    .help-section,
+    .future-section,
+    .event-section,
+    .meet-section,
+    .blog-section,
+    .gallary-section {
+        padding: 10px;
+    }
+    
+    /* Cards */
+    .future-card,
+    .event-card,
+    .blog-card {
+        width: 98%;
+    }
+    
+    .future-card p,
+    .event-card .contant p,
+    .blog-card .contant-blog p {
+        padding: 15px;
+        font-size: 14px;
+    }
+    
+    /* Progress Bar */
+    .progress-bar {
+        width: 200px;
+    }
+    
+    .dolor p {
+        font-size: 12px;
+    }
+    
+    /* Buttons */
+    .future-card a,
+    .pera-section a,
+    .urgent-section a,
+    .blog-b a,
+    .donate-button a {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    
+    /* Event Cards */
+    .dolor-1 {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .dolor-1 span {
+        font-size: 12px;
+    }
+    
+    /* Client Section */
+    .inner-bio {
+        gap: 20px;
+        font-size: 14px;
+    }
+    
+    .inner-bio p {
+        font-size: 12px;
+    }
+    
+    /* Footer */
+    .inner-futter {
+        padding: 20px 10px;
+    }
+    
+    .foter-link h1,
+    .foter-Subscribe h1 {
+        font-size: 18px;
+    }
+    
+    .foter-logo p,
+    .foter-Subscribe p {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    
+    .foter-Subscribe input {
+        width: 120px;
+        padding: 6px;
+        font-size: 12px;
+    }
+    
+    .foter-Subscribe button {
+        padding: 6px 8px;
+    }
+    
+    /* Urgent Section */
+    .urgent-section {
+        padding: 15px 10px;
+        min-height: 250px;
+    }
+    
+    .urgent-section h4 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .urgent-section h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .urgent-section p {
+        font-size: 14px;
+        width: 98%;
+    }
+    
+    /* Copy Section */
+    .copy-section {
+        padding: 15px 10px;
+    }
+    
+    .copy-section p {
+        font-size: 12px;
+    }
+}
+
+/* Extra Small Mobile - 455px and below */
+@media (max-width: 455px) {
+    /* Ensure minimum usability */
+    body {
+        font-size: 12px;
+    }
+    
+    .hero-text h1 {
+        font-size: 20px;
+    }
+    
+    .pera-section h1,
+    .future-section h1,
+    .event-section h1,
+    .meet-heading h1,
+    .gallary-heading h1,
+    .header-blog h1 {
+        font-size: 18px;
+    }
+    
+    /* Ensure all content fits */
+    .hero-text,
+    .help-section,
+    .future-section,
+    .event-section,
+    .meet-section,
+    .blog-section,
+    .gallary-section,
+    .urgent-section {
+        padding: 8px;
+    }
+    
+    /* Make buttons more touch-friendly */
+    .hero-text .hero-btn,
+    .pera-section a,
+    .future-card a,
+    .urgent-section a,
+    .blog-b a,
+    .donate-button a {
+        padding: 12px 20px;
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* Footer adjustments */
+    .foter-Subscribe form {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .foter-Subscribe input,
+    .foter-Subscribe button {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+/* Utility classes for better responsive behavior */
+.container-responsive {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Image responsiveness */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Text responsiveness */
+.text-responsive {
+    font-size: clamp(12px, 2.5vw, 16px);
+}
+
+.heading-responsive {
+    font-size: clamp(18px, 4vw, 40px);
+}
